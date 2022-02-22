@@ -11,6 +11,7 @@
 <body>
     <center>
     <h2>LOGIN</h2>
+   <?php  echo "login"; ?>
     <form action="includes/login_include.php" method="post">
 <input type="text" name="uname" placeholder="Username"></input><br><br>
 <input type="password" name="pass" placeholder="Password"></input><br><br>
